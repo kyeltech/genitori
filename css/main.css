@@ -29,6 +29,19 @@ line-height: 2;
     padding-bottom: 30%;
     bottom: 20%;
 }
+.promo-slider__subtitle{
+    margin-bottom:5%;
+    margin-right: 2%;
+ 
+}
+.promo-slider__subtitle2{
+    margin-bottom:15%;
+    margin-right: 80%;
+
+}
+.carousel-caption{
+    position: relative;
+}
 .home1{
     background-image: url(../img/home1.jpg);
     background-repeat: no-repeat;
@@ -40,6 +53,10 @@ line-height: 2;
     font-family: "Lato" sans-serif;
     content: "";
 }
+.bg-color{
+    background-color: #000!important;
+    background-blend-mode: overlay;
+}
 .promo-hopes-slider{
     padding-bottom: 30%;
     bottom: 25%;
@@ -48,6 +65,7 @@ line-height: 2;
 .header-btn{
     background-color: #3e5d9b;
     color: #fff;
+    
     margin: 10px;
     padding: 10px 5px;
      /* border-bottom-right-radius: 20px;    */
@@ -69,6 +87,13 @@ line-height: 2;
 .img--bg--project{
     position: absolute;
     height: 100%!important;
+}
+.project-1{
+    background-image: url(../img/home1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
 /* .promo{position:relative} */
 
@@ -182,3 +207,5 @@ line-height: 2;
     
 }
 }
+
+@media 
